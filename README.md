@@ -22,7 +22,7 @@ This project is an intentionally **frustrating** yet technically **functional** 
 
 ## 🚀 **Live Demo**
 You can experience the frustration live at:  
-👉 **[[https://yourusername.github.io/frustrating-login](https://yourusername.github.io/frustrating-login/)](https://sarthakkatiyar2004.github.io/Pointless-Log-in-Page/)**  
+👉 **https://sarthakkatiyar2004.github.io/Pointless-Log-in-Page/**  
 
 ## 📜 **How to Use**
 1. Try to fill out the form.  
