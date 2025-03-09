@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    animation: flashingBg 3s infinite alternate;
+}
+
+@keyframes flashingBg {
+    0% { background: linear-gradient(45deg, red, yellow, lime, cyan); }
+    25% { background: linear-gradient(45deg, magenta, orange, blue, green); }
+    50% { background: linear-gradient(45deg, purple, pink, teal, chartreuse); }
+    75% { background: linear-gradient(45deg, black, white, brown, indigo); }
+    100% { background: linear-gradient(45deg, navy, gold, hotpink, grey); }
+}
+
+
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F77836160-funny-random-situations&psig=AOvVaw2jEX2U5zKCf4mg424e9h5l&ust=1741615928581000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDsnIyX_YsDFQAAAAAdAAAAABAE
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input#first-name { width: 300px; }
+input#middle-name { width: 120px; }
+input#last-name { width: 250px; }
+input#password { width: 180px; }
+input#username { width: 320px; }
+input#age { width: 150px; }
+input#phone { width: 200px; }
+input#email { width: 350px; }
+input#dob { width: 180px; }
+input#fav-date { width: 100px; }
+input#underwear-color { width: 220px; }
+input#weird-food { width: 130px; }
+input#last-dream { width: 290px; }
+input#pet-name { width: 210px; }
+
+
+.form-group {
+    position: absolute;
+    left: calc(5% + (Math.random() * 80%));
+    top: calc(10% + (Math.random() * 1000px));
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit-btn {
+    background-color: green;
+    color: white;
+}
+
+#submit-btn:hover {
+    background-color: darkgreen;
+}
+
+
+#reset-btn {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 10px;
+    left: 10px;
+}
+
+#reset-btn:hover {
+    background-color: darkred;
+}
+
+
+.terms-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.terms-container input {
+    width: auto;
+}
+
+
+#moving-banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: moveBanner 10s linear infinite;
+}
+
+@keyframes moveBanner {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
